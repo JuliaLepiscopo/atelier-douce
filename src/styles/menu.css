@@ -21,11 +21,16 @@
     border-radius: 20px;
     gap: 18px;
     width: 25%;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
     background-color: var(--color-neutral-0);
-    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     position: relative;
     overflow: hidden;
+}
+
+.dish-image {
+    max-height: 20rem;
+    box-shadow: 0px 4px 4px -1px rgb(0 0 0 / 0.1);
 }
 
 .dish-heart{
@@ -76,6 +81,10 @@
 
     #menu .section-subtitle{
         text-align: center;
+    }
+
+    .dish-image {
+        padding-top: 20px;
     }
 
 }

@@ -34,7 +34,7 @@
     background-color: var(--color-neutral-0);
     padding: 12px;
     border-radius: 12px;
-    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
 .feedback-avatar{
@@ -51,6 +51,25 @@
 
 .feedback-content p span{
     color: var(--color-primary-6);
+}
+
+.feedback-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback-stars {
+    color: var(--color-primary-6);
+}
+
+.feedback-name {
+    font: 900 !important;
+    font-size: 1rem;
+}
+
+.feedback-description {
+    margin-top: 8px;
+    opacity: 0.7;
 }
 
 @media screen and (max-width: 1170px){
