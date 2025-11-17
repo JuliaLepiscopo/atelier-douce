@@ -7,7 +7,7 @@
 
 :root{
     --color-primary-1:oklch(97.7% 0.017 320.058);
-    --color-primary-2:oklch(93.408% 0.01589 319.164);
+    --color-primary-2:#eee6f0;
     --color-primary-3:#ffe100;
     --color-primary-4: oklch(59.1% 0.293 322.896);
     --color-primary-5:oklch(74% 0.238 322.16);
