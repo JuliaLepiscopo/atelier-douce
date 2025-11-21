@@ -1,3 +1,18 @@
+const maisBtn = document.getElementById("verMaisBtn")
+
+maisBtn.addEventListener("click", () => {
+    const maisFeedback = document.getElementById("maisFeedback");
+    maisFeedback.classList.remove("hidden");
+    maisFeedback.classList.add("show");
+
+    ScrollReveal().reveal('#maisFeedback .feedback', {
+        origin: 'right',
+        duration: 1000,
+        distance: '20%',
+        reset: false
+    });
+})
+
 $(document).ready(function() {
     $('#mobile_btn').on('click', function() {
         $('#mobile_menu').toggleClass('active');

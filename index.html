@@ -12,8 +12,8 @@
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
     <title>Atelier Douce</title>
+    <link rel="shortcut icon" href="/src/images/cake.svg" type="image/x-icon">
 </head>
 
 <body>
@@ -37,7 +37,7 @@
             </ul>
 
             <button class="btn-default">
-                Peça aqui
+                <a href="#menu">Peça aqui</a>
             </button>
 
             <button id="mobile_btn">
@@ -295,9 +295,36 @@
                             </p>
                         </div>
                     </div>
+
+
+                    <div id="maisFeedback" class="hidden">
+                        <div class="feedback">
+                            <img src="src/images/pessoa2.jpeg" class="feedback-avatar" alt="">
+
+                            <div class="feedback-content">
+                                <div class="feedback-header">
+                                    <h5 class="feedback-name">Julia</h5>
+                                    <div class="feedback-stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                                </h5>
+                                <p class="feedback-description">
+                                    Gostaria de agradecer ao chefe pela deliciosa comida. A maior experiência
+                                    gastronômica
+                                    de todas!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <button class="btn-default">Ver mais avaliações</button>
+                <button id="verMaisBtn" class="btn-default">Ver mais avaliações</button>
+
             </div>
         </section>
     </main>
@@ -307,7 +334,7 @@
 
         <div id="footer_items">
             <span id="copyright">
-                &copy 2025 Julia Lepiscopo
+                &copy; 2025 Julia Lepiscopo
             </span>
 
             <div class="social-media-buttons">
@@ -325,7 +352,7 @@
             </div>
         </div>
     </footer>
-    <script type="module" src="/script.js"></script>
+    <script src="/script.js" type="module"></script>
 </body>
 
 </html>
